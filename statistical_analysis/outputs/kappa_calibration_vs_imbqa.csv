@@ -1,0 +1,22 @@
+block,judge,task,kappa
+"Calibration vs GOLD (position, balanced)",GPT-5.4 mini,IDRE empathy,0.956
+"Calibration vs GOLD (position, balanced)",GPT-5.4 mini,AskDocs empathy,0.824
+"Calibration vs GOLD (position, balanced)",GPT-5.4 mini,AskDocs quality,0.436
+"Calibration vs GOLD (position, balanced)",GPT-OSS-120B,IDRE empathy,0.986
+"Calibration vs GOLD (position, balanced)",GPT-OSS-120B,AskDocs empathy,0.946
+"Calibration vs GOLD (position, balanced)",GPT-OSS-120B,AskDocs quality,0.782
+"Calibration vs GOLD (position, balanced)",Gemini 3.1 FL,IDRE empathy,0.972
+"Calibration vs GOLD (position, balanced)",Gemini 3.1 FL,AskDocs empathy,0.85
+"Calibration vs GOLD (position, balanced)",Gemini 3.1 FL,AskDocs quality,0.672
+"Calibration vs GOLD (position, balanced)",Llama 3.3 70B,IDRE empathy,0.986
+"Calibration vs GOLD (position, balanced)",Llama 3.3 70B,AskDocs empathy,0.864
+"Calibration vs GOLD (position, balanced)",Llama 3.3 70B,AskDocs quality,0.818
+"Calibration vs GOLD (position, balanced)",Venice unc.,IDRE empathy,0.84
+"Calibration vs GOLD (position, balanced)",Venice unc.,AskDocs empathy,0.402
+"Calibration vs GOLD (position, balanced)",Venice unc.,AskDocs quality,0.49
+"Calibration vs GOLD (source, SKEWED)",GPT-OSS-120B,AskDocs empathy,0.321
+"Calibration vs GOLD (source, SKEWED)",Llama 3.3 70B,AskDocs quality,0.12
+"IMB-QA judge-vs-JUDGE (no gold, skewed)",Llama vs GPT-OSS,No unsupported additions,0.009
+"IMB-QA judge-vs-JUDGE (no gold, skewed)",Llama vs GPT-OSS,Factual pass,0.03
+"IMB-QA judge-vs-JUDGE (no gold, skewed)",Llama vs GPT-OSS,Info preserved,0.277
+"IMB-QA judge-vs-JUDGE (no gold, skewed)",Llama vs GPT-OSS,Quality prefers edited,0.107

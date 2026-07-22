@@ -1,0 +1,21 @@
+setting,category,fp,n,ci_low,ci_high
+Llama/GPT-OSS,"Cardiologia, Sistema Circolatorio ed Ematologia",59,100,49.2,68.1
+Llama/GPT-OSS,"Dermatologia, Allergie e Estetica",71,100,61.5,79.0
+Llama/GPT-OSS,Gastroenterologia e Salute Digestiva,66,100,56.3,74.5
+Llama/GPT-OSS,Ginecologia e Salute Femminile,67,100,57.3,75.4
+Llama/GPT-OSS,Medicina Generale e Chirurgia Generale,72,100,62.5,79.9
+Llama/GPT-OSS,Neurologia,67,100,57.3,75.4
+Llama/GPT-OSS,"Oculistica, Otorinolaringoiatria, Odontoiatria e Pneumologia",71,100,61.5,79.0
+Llama/GPT-OSS,Ortopedia e Sistema Muscoloscheletrico,77,100,67.8,84.2
+Llama/GPT-OSS,Salute Mentale,64,100,54.2,72.7
+Llama/GPT-OSS,"Urologia, Andrologia e Salute Maschile",64,100,54.2,72.7
+GPT-OSS/Llama,"Cardiologia, Sistema Circolatorio ed Ematologia",99,100,94.6,99.8
+GPT-OSS/Llama,"Dermatologia, Allergie e Estetica",96,100,90.2,98.4
+GPT-OSS/Llama,Gastroenterologia e Salute Digestiva,98,100,93.0,99.4
+GPT-OSS/Llama,Ginecologia e Salute Femminile,99,100,94.6,99.8
+GPT-OSS/Llama,Medicina Generale e Chirurgia Generale,100,100,96.3,100.0
+GPT-OSS/Llama,Neurologia,100,100,96.3,100.0
+GPT-OSS/Llama,"Oculistica, Otorinolaringoiatria, Odontoiatria e Pneumologia",99,100,94.6,99.8
+GPT-OSS/Llama,Ortopedia e Sistema Muscoloscheletrico,100,100,96.3,100.0
+GPT-OSS/Llama,Salute Mentale,98,100,93.0,99.4
+GPT-OSS/Llama,"Urologia, Andrologia e Salute Maschile",99,100,94.6,99.8

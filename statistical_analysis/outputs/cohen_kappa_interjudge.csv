@@ -1,0 +1,11 @@
+generated_by,metric,n,pct_agree,cohen_kappa,k_ci,strength
+Llama,Empathy prefers edited,1000,100.0,,,degenerate: base rate ~constant
+Llama,Quality prefers edited,1000,97.0,0.107,"[-0.012, 0.258]",slight
+Llama,Info preserved,1000,96.2,0.277,"[0.111, 0.439]",fair
+Llama,No unsupported additions,1000,68.4,0.009,"[0.000, 0.022]",degenerate: base rate ~constant
+Llama,Factual pass,1000,67.9,0.03,"[-0.001, 0.062]",slight
+GPT-OSS,Empathy prefers edited,1000,98.0,0.085,"[-0.008, 0.280]",degenerate: base rate ~constant
+GPT-OSS,Quality prefers edited,1000,86.9,0.024,"[-0.015, 0.074]",slight
+GPT-OSS,Info preserved,1000,98.6,0.12,"[-0.007, 0.360]",degenerate: base rate ~constant
+GPT-OSS,No unsupported additions,1000,96.0,0.0,"[0.000, 0.000]",degenerate: base rate ~constant
+GPT-OSS,Factual pass,1000,95.0,0.02,"[-0.023, 0.107]",slight

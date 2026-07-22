@@ -1,0 +1,486 @@
+{
+  "table6": [
+    {
+      "generator": "Llama",
+      "judge": "Llama",
+      "emp_gen": 1000,
+      "qual_gen": 974,
+      "pres": 977,
+      "nounsupp": 998,
+      "fp": 975,
+      "sqi": 950,
+      "fp_ci": "[96.5, 98.4]",
+      "sqi_ci": "[93.6, 96.3]"
+    },
+    {
+      "generator": "Llama",
+      "judge": "GPT-OSS",
+      "emp_gen": 1000,
+      "qual_gen": 992,
+      "pres": 969,
+      "nounsupp": 682,
+      "fp": 678,
+      "sqi": 673,
+      "fp_ci": "[64.9, 70.7]",
+      "sqi_ci": "[64.3, 70.2]"
+    },
+    {
+      "generator": "GPT-OSS",
+      "judge": "GPT-OSS",
+      "emp_gen": 996,
+      "qual_gen": 989,
+      "pres": 996,
+      "nounsupp": 960,
+      "fp": 960,
+      "sqi": 950,
+      "fp_ci": "[94.8, 97.2]",
+      "sqi_ci": "[93.6, 96.3]"
+    },
+    {
+      "generator": "GPT-OSS",
+      "judge": "Llama",
+      "emp_gen": 982,
+      "qual_gen": 874,
+      "pres": 988,
+      "nounsupp": 1000,
+      "fp": 988,
+      "sqi": 866,
+      "fp_ci": "[98.1, 99.4]",
+      "sqi_ci": "[84.5, 88.7]"
+    }
+  ],
+  "mcnemar": [
+    {
+      "generated_by": "Llama",
+      "metric": "fp",
+      "n": 1000,
+      "llama_judge": 975,
+      "gptoss_judge": 678,
+      "discordant_llamaYes_gptossNo": 309,
+      "discordant_llamaNo_gptossYes": 12,
+      "p": 2.585992627692376e-61
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "qual_gen",
+      "n": 1000,
+      "llama_judge": 974,
+      "gptoss_judge": 992,
+      "discordant_llamaYes_gptossNo": 6,
+      "discordant_llamaNo_gptossYes": 24,
+      "p": 0.0019107751373644403
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "pres",
+      "n": 1000,
+      "llama_judge": 977,
+      "gptoss_judge": 969,
+      "discordant_llamaYes_gptossNo": 23,
+      "discordant_llamaNo_gptossYes": 15,
+      "p": 0.25614496660352326
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "nounsupp",
+      "n": 1000,
+      "llama_judge": 998,
+      "gptoss_judge": 682,
+      "discordant_llamaYes_gptossNo": 316,
+      "discordant_llamaNo_gptossYes": 0,
+      "p": 2.932108037585715e-70
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "fp",
+      "n": 1000,
+      "llama_judge": 988,
+      "gptoss_judge": 960,
+      "discordant_llamaYes_gptossNo": 39,
+      "discordant_llamaNo_gptossYes": 11,
+      "p": 0.0001343327399405243
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "qual_gen",
+      "n": 1000,
+      "llama_judge": 874,
+      "gptoss_judge": 989,
+      "discordant_llamaYes_gptossNo": 8,
+      "discordant_llamaNo_gptossYes": 123,
+      "p": 2.2754430024762177e-23
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "pres",
+      "n": 1000,
+      "llama_judge": 988,
+      "gptoss_judge": 996,
+      "discordant_llamaYes_gptossNo": 3,
+      "discordant_llamaNo_gptossYes": 11,
+      "p": 0.057373046875
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "nounsupp",
+      "n": 1000,
+      "llama_judge": 1000,
+      "gptoss_judge": 960,
+      "discordant_llamaYes_gptossNo": 40,
+      "discordant_llamaNo_gptossYes": 0,
+      "p": 6.984393061522136e-10
+    }
+  ],
+  "cohen_kappa": [
+    {
+      "generated_by": "Llama",
+      "metric": "Empathy prefers edited",
+      "n": 1000,
+      "pct_agree": 100.0,
+      "cohen_kappa": NaN,
+      "k_ci": null,
+      "strength": "degenerate: base rate ~constant"
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "Quality prefers edited",
+      "n": 1000,
+      "pct_agree": 97.0,
+      "cohen_kappa": 0.107,
+      "k_ci": "[-0.012, 0.258]",
+      "strength": "slight"
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "Info preserved",
+      "n": 1000,
+      "pct_agree": 96.2,
+      "cohen_kappa": 0.277,
+      "k_ci": "[0.111, 0.439]",
+      "strength": "fair"
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "No unsupported additions",
+      "n": 1000,
+      "pct_agree": 68.4,
+      "cohen_kappa": 0.009,
+      "k_ci": "[0.000, 0.022]",
+      "strength": "degenerate: base rate ~constant"
+    },
+    {
+      "generated_by": "Llama",
+      "metric": "Factual pass",
+      "n": 1000,
+      "pct_agree": 67.9,
+      "cohen_kappa": 0.03,
+      "k_ci": "[-0.001, 0.062]",
+      "strength": "slight"
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "Empathy prefers edited",
+      "n": 1000,
+      "pct_agree": 98.0,
+      "cohen_kappa": 0.085,
+      "k_ci": "[-0.008, 0.280]",
+      "strength": "degenerate: base rate ~constant"
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "Quality prefers edited",
+      "n": 1000,
+      "pct_agree": 86.9,
+      "cohen_kappa": 0.024,
+      "k_ci": "[-0.015, 0.074]",
+      "strength": "slight"
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "Info preserved",
+      "n": 1000,
+      "pct_agree": 98.6,
+      "cohen_kappa": 0.12,
+      "k_ci": "[-0.007, 0.360]",
+      "strength": "degenerate: base rate ~constant"
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "No unsupported additions",
+      "n": 1000,
+      "pct_agree": 96.0,
+      "cohen_kappa": 0.0,
+      "k_ci": "[0.000, 0.000]",
+      "strength": "degenerate: base rate ~constant"
+    },
+    {
+      "generated_by": "GPT-OSS",
+      "metric": "Factual pass",
+      "n": 1000,
+      "pct_agree": 95.0,
+      "cohen_kappa": 0.02,
+      "k_ci": "[-0.023, 0.107]",
+      "strength": "slight"
+    }
+  ],
+  "calibration": [
+    {
+      "judge": "GPT-5.4 mini",
+      "IDRE empathy": "0.978 [0.953,0.990]",
+      "AskDocs empathy": "0.912 [0.855,0.948]",
+      "AskDocs quality": "0.718 [0.628,0.794]"
+    },
+    {
+      "judge": "GPT-OSS-120B",
+      "IDRE empathy": "0.993 [0.974,0.998]",
+      "AskDocs empathy": "0.973 [0.932,0.989]",
+      "AskDocs quality": "0.891 [0.819,0.936]"
+    },
+    {
+      "judge": "Gemini 3.1 Flash-Lite",
+      "IDRE empathy": "0.986 [0.963,0.994]",
+      "AskDocs empathy": "0.925 [0.871,0.958]",
+      "AskDocs quality": "0.836 [0.756,0.894]"
+    },
+    {
+      "judge": "Llama 3.3 70B",
+      "IDRE empathy": "0.993 [0.974,0.998]",
+      "AskDocs empathy": "0.932 [0.879,0.963]",
+      "AskDocs quality": "0.909 [0.841,0.950]"
+    },
+    {
+      "judge": "Venice uncensored",
+      "IDRE empathy": "0.920 [0.882,0.947]",
+      "AskDocs empathy": "0.701 [0.622,0.769]",
+      "AskDocs quality": "0.745 [0.657,0.818]"
+    }
+  ],
+  "length_confound": [
+    {
+      "generator": "Llama",
+      "judge": "Llama",
+      "qual_gen": 974,
+      "beta_per_SD": 0.26248237778557926,
+      "OR_per_SD": 1.3001535563818631,
+      "p": 0.26495650623619316,
+      "mean_delta_words": 63.322
+    },
+    {
+      "generator": "Llama",
+      "judge": "GPT-OSS",
+      "qual_gen": 992,
+      "beta_per_SD": 0.8889944955710027,
+      "OR_per_SD": 2.4326823482335445,
+      "p": 0.09418693501282067,
+      "mean_delta_words": 63.322
+    },
+    {
+      "generator": "GPT-OSS",
+      "judge": "GPT-OSS",
+      "qual_gen": 989,
+      "beta_per_SD": 0.7012155038289603,
+      "OR_per_SD": 2.0162019198089247,
+      "p": 0.03548590273881453,
+      "mean_delta_words": 12.664
+    },
+    {
+      "generator": "GPT-OSS",
+      "judge": "Llama",
+      "qual_gen": 874,
+      "beta_per_SD": 0.3621277599602054,
+      "OR_per_SD": 1.4363824424017788,
+      "p": 0.0005702477707295051,
+      "mean_delta_words": 12.664
+    }
+  ],
+  "length_stats": [
+    {
+      "generator": "Llama",
+      "orig_mean": 67.999,
+      "gen_mean": 131.321,
+      "gen_sd": 34.39742929554681,
+      "ratio_of_means": 1.9312195767584819,
+      "mean_of_ratios": 2.0393173243428135,
+      "ratio_sd": 0.5328152408363569
+    },
+    {
+      "generator": "GPT-OSS",
+      "orig_mean": 67.999,
+      "gen_mean": 80.663,
+      "gen_sd": 27.557228304599718,
+      "ratio_of_means": 1.1862380329122488,
+      "mean_of_ratios": 1.2052369144669297,
+      "ratio_sd": 0.16886277024803004
+    }
+  ],
+  "fp_gap_decomposition": {
+    "setting": "Llama-generated / GPT-OSS-judge",
+    "factual_pass": 678,
+    "fp_failures": 322,
+    "preservation_failures": 31,
+    "unsupported_addition_flags": 318,
+    "note": "FP gap driven overwhelmingly by unsupported-addition flags, not preservation loss"
+  },
+  "category": [
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Cardiologia, Sistema Circolatorio ed Ematologia",
+      "fp": 59,
+      "n": 100,
+      "ci_low": 49.2,
+      "ci_high": 68.1
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Dermatologia, Allergie e Estetica",
+      "fp": 71,
+      "n": 100,
+      "ci_low": 61.5,
+      "ci_high": 79.0
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Gastroenterologia e Salute Digestiva",
+      "fp": 66,
+      "n": 100,
+      "ci_low": 56.3,
+      "ci_high": 74.5
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Ginecologia e Salute Femminile",
+      "fp": 67,
+      "n": 100,
+      "ci_low": 57.3,
+      "ci_high": 75.4
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Medicina Generale e Chirurgia Generale",
+      "fp": 72,
+      "n": 100,
+      "ci_low": 62.5,
+      "ci_high": 79.9
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Neurologia",
+      "fp": 67,
+      "n": 100,
+      "ci_low": 57.3,
+      "ci_high": 75.4
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Oculistica, Otorinolaringoiatria, Odontoiatria e Pneumologia",
+      "fp": 71,
+      "n": 100,
+      "ci_low": 61.5,
+      "ci_high": 79.0
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Ortopedia e Sistema Muscoloscheletrico",
+      "fp": 77,
+      "n": 100,
+      "ci_low": 67.8,
+      "ci_high": 84.2
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Salute Mentale",
+      "fp": 64,
+      "n": 100,
+      "ci_low": 54.2,
+      "ci_high": 72.7
+    },
+    {
+      "setting": "Llama/GPT-OSS",
+      "category": "Urologia, Andrologia e Salute Maschile",
+      "fp": 64,
+      "n": 100,
+      "ci_low": 54.2,
+      "ci_high": 72.7
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Cardiologia, Sistema Circolatorio ed Ematologia",
+      "fp": 99,
+      "n": 100,
+      "ci_low": 94.6,
+      "ci_high": 99.8
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Dermatologia, Allergie e Estetica",
+      "fp": 96,
+      "n": 100,
+      "ci_low": 90.2,
+      "ci_high": 98.4
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Gastroenterologia e Salute Digestiva",
+      "fp": 98,
+      "n": 100,
+      "ci_low": 93.0,
+      "ci_high": 99.4
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Ginecologia e Salute Femminile",
+      "fp": 99,
+      "n": 100,
+      "ci_low": 94.6,
+      "ci_high": 99.8
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Medicina Generale e Chirurgia Generale",
+      "fp": 100,
+      "n": 100,
+      "ci_low": 96.3,
+      "ci_high": 100.0
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Neurologia",
+      "fp": 100,
+      "n": 100,
+      "ci_low": 96.3,
+      "ci_high": 100.0
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Oculistica, Otorinolaringoiatria, Odontoiatria e Pneumologia",
+      "fp": 99,
+      "n": 100,
+      "ci_low": 94.6,
+      "ci_high": 99.8
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Ortopedia e Sistema Muscoloscheletrico",
+      "fp": 100,
+      "n": 100,
+      "ci_low": 96.3,
+      "ci_high": 100.0
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Salute Mentale",
+      "fp": 98,
+      "n": 100,
+      "ci_low": 93.0,
+      "ci_high": 99.4
+    },
+    {
+      "setting": "GPT-OSS/Llama",
+      "category": "Urologia, Andrologia e Salute Maschile",
+      "fp": 99,
+      "n": 100,
+      "ci_low": 94.6,
+      "ci_high": 99.8
+    }
+  ]
+}
